@@ -34,7 +34,7 @@ html {
   
   a {
     color: var(--text-color);
-    text-decoration: dotted;
+    text-decoration: none;
   }
   
   .visually-hidden {
