@@ -1,0 +1,10 @@
+//define variable for color
+$color : #3D3D3D;
+
+/*Apply color variables for both body and p tags*/
+body  {
+    color: $color;
+}
+p {
+    color: $color;
+}
