@@ -1,8 +1,8 @@
 // Define variables for margin and padding
 $margin-p: 10px;
-$padding-body: 0
+$padding-body: 0px;
 ;
-/*Apply styles using nested declarations*/
+//Apply styles using nested declarations
 body {
   margin: $padding-body;
   padding: $padding-body;
