@@ -1,0 +1,21 @@
+/* Define variables */
+$font-size : 12px;
+$success-color :#00FF00;
+$failed-color:#FF0000;
+/* Define base styles */
+
+.info {
+    font-size: $font-size;
+  }
+  
+  /* Extend base styles for success and warning */
+  .success {
+    @extend .info;
+    color: $success-color;
+  }
+  
+  .warning {
+    @extend .info;
+    color: $failed-color;
+  }
+  
