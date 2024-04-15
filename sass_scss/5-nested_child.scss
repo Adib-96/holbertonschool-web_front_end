@@ -1,0 +1,11 @@
+// Define variables for text colors
+$text-color: #3D3D3D;
+$red-color: #FF0000;
+
+// Apply styles using nested declarations
+body {
+    color: $text-color;
+    & > .red {
+        color: $red-color;
+    }
+}
