@@ -1,20 +1,20 @@
 /* Define variables */
-$font-size: 12px;
-$success-color: #00FF00;
-$failed-color: #FF0000;
-/* Define base styles */
+$font-size-info: 12px;
+$text-color-success: #00FF00;
+$text-color-warning: #FF0000;
 
+/* Define base styles */
 .info {
-  font-size: $font-size;
+  font-size: $font-size-info;
 }
 
 /* Extend base styles for success and warning */
 .success {
   @extend .info;
-  color: $success-color;
+  color: $text-color-success;
 }
 
 .warning {
   @extend .info;
-  color: $failed-color;
+  color: $text-color-warning;
 }
