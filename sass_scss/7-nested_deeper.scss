@@ -1,7 +1,7 @@
 /* Define variables */
 $base-font-size: 14px;
 $heading-font-size: 16px;
-$smaller-heading-difference: 2px;
+$smaller-heading-difference: 12px;
 
 /* Global styles */
 body {
@@ -12,7 +12,7 @@ body {
     font-size: $heading-font-size;
       /* Styles for h1 with class .smaller inside body */
     &.smaller {
-        font-size: calc(#{$base-font-size} - #{$smaller-heading-difference});
+        font-size: $smaller-heading-difference;
   }
   }
 
