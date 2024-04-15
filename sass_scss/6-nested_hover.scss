@@ -1,0 +1,11 @@
+//Define colors varibles
+$main-text-color : #FF0000;
+$hover-text-color : #00FF00;
+
+//Applying rules to button
+button {
+    color: $main-text-color;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
