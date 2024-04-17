@@ -1,0 +1,12 @@
+/* Grid
+      ============================= */
+.row {
+    display: flex;
+}
+
+[class*='col-'] {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
